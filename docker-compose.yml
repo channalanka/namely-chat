@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  namely-chat:
+    image: ${DOCKER_REGISTRY-}namelychat
+    build:
+      context: .
+      dockerfile: namely-chat/Dockerfile

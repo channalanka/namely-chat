@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  namely-chat:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
